@@ -13,7 +13,7 @@ volumes:
 services:
   traefik:
     image: traefik:v2.4.8
-    container_name: treafik 
+    container_name: traefik 
     command:
       - "--log.level=INFO"
       - "--log.filepath=/log-file.log"
